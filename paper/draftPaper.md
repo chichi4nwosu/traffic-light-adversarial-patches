@@ -1,1 +1,0 @@
-Title: Sensor Disagreement Metrics for Detecting Faulty and Spoofed Sensor Measurements in Autonomous Drones
