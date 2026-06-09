@@ -1,0 +1,77 @@
+[B1] PaniCar: Securing the Perception of Advanced Driving Assistance Systems Against Emergency Vehicle Lighting
+
+could the flashiog lights of the ambulance and police cars adn all that be the  reason so many autonomous cars crash into emergency vehicles?
+the flashing lights alter the Ais confidence to decipher what is going on 
+sometimes... the AI sees the car other times they do not
+
+it shows 16 documented tesla crashes 
+
+is emergency vehicle lighting affecting the AI perception of what is going on?
+
+the flashing emergency lights can cause the object detector confidence to drop below the desired detection threshold 
+the AI detets the emergency vehicle sometime but other times the confidence does fluctuate 
+
+confidence is basically just like how sure that they are that what they are seeing is a car
+if the confidence is below 0.5
+     the AI might not see it in its percception system and it might disappear 
+
+lens flares are caused when big lights hit a camera and creates
+    streaks 
+    glowing artifacts and 
+    weird reflections
+this is exactly what emergency lights do they create weird images on the camera and the AI can not tell what it is or if it is real or fake
+
+previously in research they used 
+     normal cameras 
+     one image 
+     static lighting 
+
+now they are using 
+    ADAs cameras 
+    flashing lights like emt lights or something
+    object detection failure
+
+PANICAR = fluctuation in object detector confidence due to emergency lights 
+the detector becomes unstable not like BLIND but very inconsistent  \
+it is not random the flashing patterns control the behavior
+
+they used Fourier Transform Analysis 
+     the detector confidence fluctuates atthe same freq. as the flashing light
+     the flashing pattern directly affects the AI confidence signal
+
+
+they tested 
+    YOLO - fast and real time used in robotaics 
+    SSD -  fast lightwwight detector
+    Faster R-CNN - slower but more precise and it is used in like mainly research 
+    and Retina Net - designed to IMPROVE difficult object detection
+
+id the light were off the cofidence was .9+ but if they were on.. then the confidence was like pushing .4 or even lower 
+
+it was consistent across adas vehicles teslas smartphones and multiple detectors showing this is not like oh likr the model is broken 
+this shows the SYSTEM is broken
+
+darkness amplifies the pani car becasue e flare dominates the image more making it even harder for the AI to decipher wth is going on
+
+someone could intentionally do this to fw the car and then is becomes a cybersecurity issue 
+
+bro cant u just track wth is going on around u and remember it?
+
+researchers tried to do that already with
+    DeepSort
+    ByteTrack
+    OCSort
+
+still failed because trackiong dependes on detections if detections disappear tracking becomes too unstable 
+
+Caracetamol is the SOLUTION:
+    removes flare from images
+    retrains detectors on flare-heavy data
+    combines original detections + corrected detections
+instead of trusing the noisy frame it tris to stabilize the detenction
+
+this mitigation framework improved 
+    average confidence
+    stability
+    lower confidence bounds
+while also keeping it fast enough to do in real-time

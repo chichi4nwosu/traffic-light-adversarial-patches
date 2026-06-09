@@ -1,0 +1,143 @@
+[A1]Trapped by Their Own Light: Deployable and Stealth Retroreflective Patch Attacks
+self-driving cars like tesla toyota volkswagon waymos etc. all unse:
+- cameras 
+- AI models 
+- traffic signal systems 
+to identify (stop signs/traffic lights/ speed limits)
+but AI vision systems can be attacked at anytime 
+- stickers on signs 
+- laser/light projections
+not visible; too bulky unseen
+
+can we make an attack that is both stealthy and practical?
+this is where the adversarial Retroreflective patchcame in or otherwise know as the ARP!
+these are special reflectice stickers so that it makes it so you are able to see them while the shining at night 
+humans dont notice it but AI gets very confused and doesnt understand
+
+Retroreflective basically means it reflects light back onto/toward the source 
+- road signs glowing at night
+- safety vests
+
+humans ca easily see what sign it is but AI models candistort it and think that it is like a stop sign when it is actualll the speed limit or something like that 
+
+researchers use neural networks, object detection models, and optimization to design the BEST attack models
+
+ai is tryin to only stay confused at night and not be confused during the day 
+ they tested it on these computer vision neural networks 
+YOLOv5
+"You Only Look Once"
+finds object & classifies object 
+AT THE SAME DANG TIME
+
+Faster R-CNN
+it is more accurate but its slower...
+find possible object
+classify it 
+used in more research adn high accuracy tasks
+
+CNN classifiers
+Convolutional Neural Networks
+this is THE THINKER 
+it like knows edges shapes texture patterns all that
+irst layers detect:
+    lines
+
+later layers detect:
+    wheels
+    signs
+    faces
+
+the attacks worked real good especially on commercial cars like nissan toyota and other commercial cars it had a 90% success rate menaing it worked suprisingly often 
+
+researchers attack ai to find like teh errors of the model before genuine bad ppl do 
+if nobody tests it nobosy knows if the AI can fail or not so you have to try and break it urself 
+
+TSR or Traffic Sign Recognition System includes: cameras, sensors, AI models
+- its basically just how the car can see like the car's vision system 
+
+the camera captures an image then the AI models it 
+like if it sees an octogon the AI clarrifies its a stop sign
+
+Hardware:
+cameras
+image sensors
+lenses
+
+object detection like where is the sign and with models like YOLO and Faster R-CNN draw 
+boxes around the object and then and say OI there is a stop signnn
+
+the neural network basically asks what is this object a speed limit? traffic light? stop sign?
+
+Cameras ( cheap + detailed not good when the weather is chopt)
+Used for:
+    lane detection
+    signs
+    pedestrians
+    objects
+
+LiDAR light detection and ranging 
+shoots lasers and measures the reflefction
+creates a 3d map 
+Good for:
+    depth
+    object distance
+Weakness:
+    EXPENSIEV
+
+Radar
+Uses radio waves.
+Good for:
+    distance
+    speed
+    rain/fog
+Weakness:
+    lower visual detail.
+
+Ultrasonic Sensors
+Small short-range sensors.
+Used for:
+    parking
+    nearby obstacles
+
+GPS + IMU
+GPS:
+    global position.
+
+IMU:
+measures:
+    acceleration
+    rotation
+    movement
+VERY important for navigation
+
+ECU / Embedded Computers
+The “brain hardware.”
+Processes:
+    AI inference
+    sensor fusion
+    decisions
+Examples:
+    NVIDIA DRIVE
+    automotive SoCs
+    embedded AI accelerators
+
+THIS is very ECE/hardware.
+
+Sensor Fusion
+Cars combine ALL sensors together.
+
+Example:   
+    camera says “pedestrian”
+    radar says “moving object”
+    LiDAR says “3D shape”
+The car combines all evidence.
+
+This improves safety.
+
+NVIDIA DRIVE
+Makes autonomous driving hardware/computing platforms.
+
+alpha is basically the balances like attacks on teh ai and then the stealthiness of the ai 
+if alpha is big prioritice highin if alpha is small proritize effectiveness 
+
+optimization is seeing how much is needed to maximize effectiveness

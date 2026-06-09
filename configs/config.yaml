@@ -1,0 +1,4 @@
+project_name: adversarial-perception-security
+model: yolov8
+dataset: TBD
+attack: adversarial_patch
