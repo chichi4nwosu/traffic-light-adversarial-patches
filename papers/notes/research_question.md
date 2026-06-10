@@ -3,6 +3,7 @@
 ## Main Research Direction
 
 How can adversarial patches fool traffic light detection systems?
+Can we intentionally fool the traffic light detector?
 
 ## Questions
 
