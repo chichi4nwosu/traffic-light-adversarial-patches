@@ -1,0 +1,23 @@
+2026-06-14 15:57:33,847 INFO    MainThread:61480 [wandb_setup.py:_flush():81] Current SDK version is 0.27.2
+2026-06-14 15:57:33,847 INFO    MainThread:61480 [wandb_setup.py:_flush():81] Configure stats pid to 61480
+2026-06-14 15:57:33,848 INFO    MainThread:61480 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-06-14 15:57:33,848 INFO    MainThread:61480 [wandb_init.py:setup_run_log_directory():723] Logging user logs to /Users/chi-chinwosu/Desktop/MSPM0_ValvanoWare (1)/ECE319K_Lab6/attacks-on-traffic-light-detection/wandb/offline-run-20260614_155733-6e4tzs2s/logs/debug.log
+2026-06-14 15:57:33,848 INFO    MainThread:61480 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to /Users/chi-chinwosu/Desktop/MSPM0_ValvanoWare (1)/ECE319K_Lab6/attacks-on-traffic-light-detection/wandb/offline-run-20260614_155733-6e4tzs2s/logs/debug-internal.log
+2026-06-14 15:57:33,848 INFO    MainThread:61480 [wandb_init.py:init():766] calling init triggers
+2026-06-14 15:57:33,848 INFO    MainThread:61480 [wandb_init.py:init():771] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2026-06-14 15:57:33,848 INFO    MainThread:61480 [wandb_init.py:init():814] starting backend
+2026-06-14 15:57:35,187 INFO    MainThread:61480 [wandb_init.py:init():829] sending inform_init request
+2026-06-14 15:57:35,663 INFO    MainThread:61480 [wandb_init.py:init():834] backend started and connected
+2026-06-14 15:57:35,668 INFO    MainThread:61480 [wandb_init.py:init():904] updated telemetry
+2026-06-14 15:57:35,702 INFO    MainThread:61480 [wandb_init.py:init():927] communicating run to backend with 90.0 second timeout
+2026-06-14 15:57:35,706 INFO    MainThread:61480 [wandb_init.py:init():972] starting run threads in backend
+2026-06-14 15:57:35,882 INFO    MainThread:61480 [wandb_run.py:_console_start():2523] atexit reg
+2026-06-14 15:57:35,882 INFO    MainThread:61480 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-06-14 15:57:35,882 INFO    MainThread:61480 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-06-14 15:57:35,882 INFO    MainThread:61480 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-06-14 15:57:35,886 INFO    MainThread:61480 [wandb_init.py:init():1010] run started, returning control to user process
+2026-06-14 15:57:35,888 INFO    MainThread:61480 [wandb_run.py:_config_callback():1346] config_cb None None {'train_img_folder_path': '/Users/chi-chinwosu/Desktop/cs691-final-project-submit/datasets/BSTLD/images/train', 'val_img_folder_path': '/Users/chi-chinwosu/Desktop/cs691-final-project-submit/datasets/BSTLD/images/val', 'test_img_folder_path': '/Users/chi-chinwosu/Desktop/cs691-final-project-submit/datasets/BSTLD/images/val', 'yolo_weights_path': './runs/rebuild/bstld1280_v1/weights/best.pt', 'img_size': 1280, 'class_to_replace': 1, 'target_class': 0, 'only_lowest_bbox': False, 'suffix': '', 'dataset': 'bstld', 'classes_path': 'classnames/bstld/classes.names', 'patch_name': 'outputs_train/final_patches/bstld_patch_', 'save_freq': 1, 'iou_thres': 0.7, 'conf_thres': 0.25, 'num_epochs': 1, 'learning_rate': 0.01, 'pgd_steps': 100, 'tv_coef': 1, 'cls_coef': 1, 'box_coef': 0, 'obj_coef': 0, 'dfl_coef': 0, 'green_pen_coef': 0.0002, 'patch_size': 125, 'patch_width_multiplier': 2.5, 'transform': True, 'random_seed': 1}
+2026-06-14 15:57:35,888 INFO    MainThread:61480 [wandb_run.py:_config_callback():1346] config_cb None None {'machine_name': 'Chi-Chis-MacBook-Air.local'}
+2026-06-14 15:57:35,893 INFO    wandb-AsyncioManager-main:61480 [service_client.py:_forward_responses():122] Reached EOF.
+2026-06-14 15:57:35,893 INFO    wandb-AsyncioManager-main:61480 [mailbox.py:close():154] Closing mailbox, abandoning 0 handles.

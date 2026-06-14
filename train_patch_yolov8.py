@@ -425,7 +425,7 @@ if __name__ == "__main__":
                 params = wandb.config
 
                 wandb.run.name = datetime.now().strftime("%Y%m%d_%H%M%S") + "_universal_targeted_" + params["dataset"] + "_"+ str(params["img_size"])
-                wandb.run.save()
+                # wandb.run.save()
 
                 # Set random seeds
                 random_seed = params.get("random_seed", 1)
