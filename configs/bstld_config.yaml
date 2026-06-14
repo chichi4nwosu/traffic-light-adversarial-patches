@@ -1,0 +1,36 @@
+train_img_folder_path: "/Users/chi-chinwosu/Desktop/cs691-final-project-submit/datasets/BSTLD/images/train"
+val_img_folder_path: "/Users/chi-chinwosu/Desktop/cs691-final-project-submit/datasets/BSTLD/images/val"
+test_img_folder_path: "/Users/chi-chinwosu/Desktop/cs691-final-project-submit/datasets/BSTLD/images/val"
+
+yolo_weights_path: "./runs/rebuild/bstld1280_v1/weights/best.pt"
+img_size: 1280
+
+class_to_replace: 1 # red
+target_class: 0 # green
+only_lowest_bbox: False
+
+suffix: ""
+dataset: "bstld"
+classes_path: "classnames/bstld/classes.names"
+patch_name: "outputs_train/final_patches/bstld_patch_"
+save_freq: 1
+
+iou_thres: 0.7
+conf_thres: 0.25
+
+num_epochs: 1
+learning_rate: 0.01
+pgd_steps: 100
+
+tv_coef: 1
+cls_coef: 1
+box_coef: 0
+obj_coef: 0
+dfl_coef: 0
+green_pen_coef: 0.0002
+
+patch_size: 125
+patch_width_multiplier: 2.5
+transform: True
+
+random_seed: 1
