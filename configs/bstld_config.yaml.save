@@ -1,6 +1,6 @@
-train_img_folder_path: "/home/chi-chi/Project_TL/datasets/BSTLD/images/train"
-val_img_folder_path: "/home/chi-chi/Project_TL/datasets/BSTLD/images/val"
-test_img_folder_path: "/home/chi-chi/Project_TL/datasets/BSTLD/images/val"
+train_img_folder_path: "/Users/chi-chinwosu/Desktop/cs691-final-project-submit/datasets/BSTLD/images/train"
+val_img_folder_path: "/Users/chi-chinwosu/Desktop/cs691-final-project-submit/datasets/BSTLD/images/val"
+test_img_folder_path: "/Users/chi-chinwosu/Desktop/cs691-final-project-submit/datasets/BSTLD/images/val"
 
 yolo_weights_path: "./runs/rebuild/bstld1280_v1/weights/best.pt"
 img_size: 1280
@@ -35,4 +35,3 @@ transform: True
 
 random_seed: 1
 
-second_val_dataset: False

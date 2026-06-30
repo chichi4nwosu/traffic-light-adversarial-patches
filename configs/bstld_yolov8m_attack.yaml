@@ -2,7 +2,7 @@ train_img_folder_path: "/home/chi-chi/Project_TL/datasets/BSTLD/images/train"
 val_img_folder_path: "/home/chi-chi/Project_TL/datasets/BSTLD/images/val"
 test_img_folder_path: "/home/chi-chi/Project_TL/datasets/BSTLD/images/val"
 
-yolo_weights_path: "./runs/rebuild/bstld1280_v1/weights/best.pt"
+yolo_weights_path: "./runs/detect/bstld_yolov8m3/weights/best.pt"
 img_size: 1280
 
 class_to_replace: 1 # red
@@ -18,7 +18,7 @@ save_freq: 1
 iou_thres: 0.7
 conf_thres: 0.25
 
-num_epochs: 1
+num_epochs: 10
 learning_rate: 0.01
 pgd_steps: 100
 

@@ -1,0 +1,40 @@
+train_img_folder_path: "/home/chi-chi/Project_TL/datasets/LISA/datasets/train/images"
+val_img_folder_path: "/home/chi-chi/Project_TL/datasets/LISA/datasets/val/images"
+test_img_folder_path: "/home/chi-chi/Project_TL/datasets/LISA/datasets/val/images"
+
+yolo_weights_path: "./runs/detect/lisa_yolov8m/weights/best.pt"
+
+dataset: "lisa"
+classes_path: "classnames/lisa/classes.names"
+patch_name: "outputs_train/final_patches/lisa_patch_"
+
+img_size: 640
+
+class_to_replace: 0 # red
+target_class: 0 # green
+only_lowest_bbox: False
+
+suffix: ""
+save_freq: 1
+
+iou_thres: 0.7
+conf_thres: 0.25
+
+num_epochs: 1
+learning_rate: 0.01
+pgd_steps: 20
+
+tv_coef: 1
+cls_coef: 1
+box_coef: 0
+obj_coef: 0
+dfl_coef: 0
+green_pen_coef: 0.0002
+
+patch_size: 125
+patch_width_multiplier: 2
+transform: True
+
+random_seed: 1
+
+second_val_dataset: False
