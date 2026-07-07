@@ -12,3 +12,4 @@ outputs_train/
 *.gz
 __pycache__/
 *.pyc
+wandb/
