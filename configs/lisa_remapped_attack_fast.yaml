@@ -3,24 +3,25 @@ val_img_folder_path: "/home/chi-chi/REU/LISAyoloFormat/test/images"
 test_img_folder_path: "/home/chi-chi/REU/LISAyoloFormat/test/images"
 
 yolo_weights_path: "./runs/detect/lisa_remapped_yolov8m/weights/best.pt"
+patch_name: "outputs_train/final_patches/lisa_remapped_patch_FIXED_"
 img_size: 640
 
-class_to_replace: 0 # red
-target_class: 2 # green
+class_to_replace: 0  # Red
+target_class: 2      # Green
 only_lowest_bbox: False
 
 suffix: ""
 dataset: "lisa"
 classes_path: "classnames/lisa/classes.names"
-patch_name: "outputs_train/final_patches/lisa_remapped_patch_"
 save_freq: 1
 
 iou_thres: 0.7
 conf_thres: 0.25
 
-num_epochs: 1
-learning_rate: 0.01
-pgd_steps: 20
+# KEY CHANGE: was 1 epoch, now 15
+num_epochs: 20
+learning_rate: 0.005
+pgd_steps: 40
 
 tv_coef: 1
 cls_coef: 1
@@ -31,7 +32,7 @@ green_pen_coef: 0.0002
 
 patch_size: 125
 patch_width_multiplier: 2
-transform: True
+transform: True    # Disabled during training so gradients flow cleanly
 
 random_seed: 1
 

@@ -1,0 +1,10 @@
+Patch: outputs_train/final_patches/lisa_remapped_patch_FIXED_1.pt
+Baseline model: runs/detect/lisa_remapped_yolov8m/weights/best.pt
+Defense model:  runs/detect/lisa_defense_yolov8m_50/weights/best.pt
+
+Metric                        Baseline      Defense     Change
+-------------------------------------------------------
+Attack Success (%)               72.9%        19.6% -53.4% ↓
+Vanishing (%)                     3.2%         3.5% +0.4% ↑
+Total Affected (%)               76.1%        23.1% -53.0% ↓
+Unaffected (%)                   23.9%        76.9% +53.0% ↑
