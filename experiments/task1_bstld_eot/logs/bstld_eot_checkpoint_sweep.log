@@ -1,0 +1,567 @@
+
+======================================================================
+EVALUATING EPOCH 1
+======================================================================
+Using device: 0
+Loading model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Loading patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_1.pt
+Classes: {0: 'Red', 1: 'Yellow', 2: 'Green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_1.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 532
+Correct color: 134
+Misclassified: 398
+Targeted Green: 398
+Vanished: 103
+
+Classification accuracy: 0.251880
+Classification accuracy (%): 25.19%
+
+Targeted misclassification rate: 0.748120
+Targeted misclassification rate (%): 74.81%
+
+Vanishing rate: 0.162205
+Vanishing rate (%): 16.22%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 1: Accuracy=25.19% | TMR=74.81% | Vanishing=16.22%
+
+======================================================================
+EVALUATING EPOCH 2
+======================================================================
+Using device: 0
+Loading model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Loading patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_2.pt
+Classes: {0: 'Red', 1: 'Yellow', 2: 'Green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_2.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 280
+Correct color: 263
+Misclassified: 17
+Targeted Green: 15
+Vanished: 355
+
+Classification accuracy: 0.939286
+Classification accuracy (%): 93.93%
+
+Targeted misclassification rate: 0.053571
+Targeted misclassification rate (%): 5.36%
+
+Vanishing rate: 0.559055
+Vanishing rate (%): 55.91%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 2: Accuracy=93.93% | TMR=5.36% | Vanishing=55.91%
+
+======================================================================
+EVALUATING EPOCH 3
+======================================================================
+Using device: 0
+Loading model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Loading patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_3.pt
+Classes: {0: 'Red', 1: 'Yellow', 2: 'Green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_3.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 269
+Correct color: 252
+Misclassified: 17
+Targeted Green: 16
+Vanished: 366
+
+Classification accuracy: 0.936803
+Classification accuracy (%): 93.68%
+
+Targeted misclassification rate: 0.059480
+Targeted misclassification rate (%): 5.95%
+
+Vanishing rate: 0.576378
+Vanishing rate (%): 57.64%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 3: Accuracy=93.68% | TMR=5.95% | Vanishing=57.64%
+
+======================================================================
+EVALUATING EPOCH 4
+======================================================================
+Using device: 0
+Loading model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Loading patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_4.pt
+Classes: {0: 'Red', 1: 'Yellow', 2: 'Green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_4.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 266
+Correct color: 241
+Misclassified: 25
+Targeted Green: 23
+Vanished: 369
+
+Classification accuracy: 0.906015
+Classification accuracy (%): 90.60%
+
+Targeted misclassification rate: 0.086466
+Targeted misclassification rate (%): 8.65%
+
+Vanishing rate: 0.581102
+Vanishing rate (%): 58.11%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 4: Accuracy=90.60% | TMR=8.65% | Vanishing=58.11%
+
+======================================================================
+EVALUATING EPOCH 5
+======================================================================
+Using device: 0
+Loading model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Loading patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_5.pt
+Classes: {0: 'Red', 1: 'Yellow', 2: 'Green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_5.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 266
+Correct color: 251
+Misclassified: 15
+Targeted Green: 13
+Vanished: 369
+
+Classification accuracy: 0.943609
+Classification accuracy (%): 94.36%
+
+Targeted misclassification rate: 0.048872
+Targeted misclassification rate (%): 4.89%
+
+Vanishing rate: 0.581102
+Vanishing rate (%): 58.11%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 5: Accuracy=94.36% | TMR=4.89% | Vanishing=58.11%
+
+======================================================================
+EVALUATING EPOCH 6
+======================================================================
+Using device: 0
+Loading model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Loading patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_6.pt
+Classes: {0: 'Red', 1: 'Yellow', 2: 'Green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_6.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 263
+Correct color: 242
+Misclassified: 21
+Targeted Green: 20
+Vanished: 372
+
+Classification accuracy: 0.920152
+Classification accuracy (%): 92.02%
+
+Targeted misclassification rate: 0.076046
+Targeted misclassification rate (%): 7.60%
+
+Vanishing rate: 0.585827
+Vanishing rate (%): 58.58%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 6: Accuracy=92.02% | TMR=7.60% | Vanishing=58.58%
+
+======================================================================
+EVALUATING EPOCH 7
+======================================================================
+Using device: 0
+Loading model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Loading patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_7.pt
+Classes: {0: 'Red', 1: 'Yellow', 2: 'Green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_7.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 268
+Correct color: 235
+Misclassified: 33
+Targeted Green: 31
+Vanished: 367
+
+Classification accuracy: 0.876866
+Classification accuracy (%): 87.69%
+
+Targeted misclassification rate: 0.115672
+Targeted misclassification rate (%): 11.57%
+
+Vanishing rate: 0.577953
+Vanishing rate (%): 57.80%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 7: Accuracy=87.69% | TMR=11.57% | Vanishing=57.80%
+
+======================================================================
+EVALUATING EPOCH 8
+======================================================================
+Using device: 0
+Loading model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Loading patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_8.pt
+Classes: {0: 'Red', 1: 'Yellow', 2: 'Green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_8.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 271
+Correct color: 255
+Misclassified: 16
+Targeted Green: 15
+Vanished: 364
+
+Classification accuracy: 0.940959
+Classification accuracy (%): 94.10%
+
+Targeted misclassification rate: 0.055351
+Targeted misclassification rate (%): 5.54%
+
+Vanishing rate: 0.573228
+Vanishing rate (%): 57.32%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 8: Accuracy=94.10% | TMR=5.54% | Vanishing=57.32%
+
+======================================================================
+EVALUATING EPOCH 9
+======================================================================
+Using device: 0
+Loading model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Loading patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_9.pt
+Classes: {0: 'Red', 1: 'Yellow', 2: 'Green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_9.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 276
+Correct color: 251
+Misclassified: 25
+Targeted Green: 24
+Vanished: 359
+
+Classification accuracy: 0.909420
+Classification accuracy (%): 90.94%
+
+Targeted misclassification rate: 0.086957
+Targeted misclassification rate (%): 8.70%
+
+Vanishing rate: 0.565354
+Vanishing rate (%): 56.54%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 9: Accuracy=90.94% | TMR=8.70% | Vanishing=56.54%
+
+======================================================================
+EVALUATING EPOCH 10
+======================================================================
+Using device: 0
+Loading model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Loading patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_10.pt
+Classes: {0: 'Red', 1: 'Yellow', 2: 'Green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_10.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 259
+Correct color: 242
+Misclassified: 17
+Targeted Green: 16
+Vanished: 376
+
+Classification accuracy: 0.934363
+Classification accuracy (%): 93.44%
+
+Targeted misclassification rate: 0.061776
+Targeted misclassification rate (%): 6.18%
+
+Vanishing rate: 0.592126
+Vanishing rate (%): 59.21%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 10: Accuracy=93.44% | TMR=6.18% | Vanishing=59.21%
+
+======================================================================
+EVALUATING EPOCH 11
+======================================================================
+Using device: 0
+Loading model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Loading patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_11.pt
+Classes: {0: 'Red', 1: 'Yellow', 2: 'Green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_11.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 259
+Correct color: 231
+Misclassified: 28
+Targeted Green: 27
+Vanished: 376
+
+Classification accuracy: 0.891892
+Classification accuracy (%): 89.19%
+
+Targeted misclassification rate: 0.104247
+Targeted misclassification rate (%): 10.42%
+
+Vanishing rate: 0.592126
+Vanishing rate (%): 59.21%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 11: Accuracy=89.19% | TMR=10.42% | Vanishing=59.21%
+
+======================================================================
+EVALUATING EPOCH 12
+======================================================================
+Using device: 0
+Loading model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Loading patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_12.pt
+Classes: {0: 'Red', 1: 'Yellow', 2: 'Green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_12.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 265
+Correct color: 252
+Misclassified: 13
+Targeted Green: 12
+Vanished: 370
+
+Classification accuracy: 0.950943
+Classification accuracy (%): 95.09%
+
+Targeted misclassification rate: 0.045283
+Targeted misclassification rate (%): 4.53%
+
+Vanishing rate: 0.582677
+Vanishing rate (%): 58.27%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 12: Accuracy=95.09% | TMR=4.53% | Vanishing=58.27%
+
+======================================================================
+EVALUATING EPOCH 13
+======================================================================
+Using device: 0
+Loading model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Loading patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_13.pt
+Classes: {0: 'Red', 1: 'Yellow', 2: 'Green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_13.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 277
+Correct color: 251
+Misclassified: 26
+Targeted Green: 25
+Vanished: 358
+
+Classification accuracy: 0.906137
+Classification accuracy (%): 90.61%
+
+Targeted misclassification rate: 0.090253
+Targeted misclassification rate (%): 9.03%
+
+Vanishing rate: 0.563780
+Vanishing rate (%): 56.38%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 13: Accuracy=90.61% | TMR=9.03% | Vanishing=56.38%
+
+======================================================================
+EVALUATING EPOCH 14
+======================================================================
+Using device: 0
+Loading model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Loading patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_14.pt
+Classes: {0: 'Red', 1: 'Yellow', 2: 'Green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_14.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 267
+Correct color: 245
+Misclassified: 22
+Targeted Green: 21
+Vanished: 368
+
+Classification accuracy: 0.917603
+Classification accuracy (%): 91.76%
+
+Targeted misclassification rate: 0.078652
+Targeted misclassification rate (%): 7.87%
+
+Vanishing rate: 0.579528
+Vanishing rate (%): 57.95%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 14: Accuracy=91.76% | TMR=7.87% | Vanishing=57.95%
+
+======================================================================
+EVALUATING EPOCH 15
+======================================================================
+Using device: 0
+Loading model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Loading patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_15.pt
+Classes: {0: 'Red', 1: 'Yellow', 2: 'Green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Patch: experiments/task1_bstld_eot/patches/final/bstld_eot_final_15.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 273
+Correct color: 256
+Misclassified: 17
+Targeted Green: 16
+Vanished: 362
+
+Classification accuracy: 0.937729
+Classification accuracy (%): 93.77%
+
+Targeted misclassification rate: 0.058608
+Targeted misclassification rate (%): 5.86%
+
+Vanishing rate: 0.570079
+Vanishing rate (%): 57.01%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 15: Accuracy=93.77% | TMR=5.86% | Vanishing=57.01%
+
+======================================================================
+BSTLD EOT CHECKPOINT SWEEP
+======================================================================
+Epoch       Accuracy         TMR     Vanishing
+1             25.19%      74.81%        16.22%
+2             93.93%       5.36%        55.91%
+3             93.68%       5.95%        57.64%
+4             90.60%       8.65%        58.11%
+5             94.36%       4.89%        58.11%
+6             92.02%       7.60%        58.58%
+7             87.69%      11.57%        57.80%
+8             94.10%       5.54%        57.32%
+9             90.94%       8.70%        56.54%
+10            93.44%       6.18%        59.21%
+11            89.19%      10.42%        59.21%
+12            95.09%       4.53%        58.27%
+13            90.61%       9.03%        56.38%
+14            91.76%       7.87%        57.95%
+15            93.77%       5.86%        57.01%
+
+Highest observed TMR checkpoint: epoch 1
+TMR: 74.81%
+Classification accuracy: 25.19%
+Vanishing: 16.22%
+
+Saved: /home/chi-chi/REU/attacks-on-traffic-light-detection/experiments/task1_bstld_eot/evaluation/bstld_eot_checkpoint_sweep.csv

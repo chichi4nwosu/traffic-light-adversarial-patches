@@ -1,0 +1,197 @@
+
+======================================================================
+EVALUATING EPOCH 1
+======================================================================
+Using device: 0
+Loading model: runs/detect/bstld_eot_defense_50/weights/best.pt
+Loading patch: experiments/task1_bstld_eot/patches/adaptive_defense/bstld_eot_adaptive_defense_1.pt
+Classes: {0: 'red', 1: 'yellow', 2: 'green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: runs/detect/bstld_eot_defense_50/weights/best.pt
+Patch: experiments/task1_bstld_eot/patches/adaptive_defense/bstld_eot_adaptive_defense_1.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 463
+Correct color: 349
+Misclassified: 114
+Targeted Green: 114
+Vanished: 172
+
+Classification accuracy: 0.753780
+Classification accuracy (%): 75.38%
+
+Targeted misclassification rate: 0.246220
+Targeted misclassification rate (%): 24.62%
+
+Vanishing rate: 0.270866
+Vanishing rate (%): 27.09%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 1: Accuracy=75.38% | TMR=24.62% | Vanishing=27.09%
+
+======================================================================
+EVALUATING EPOCH 2
+======================================================================
+Using device: 0
+Loading model: runs/detect/bstld_eot_defense_50/weights/best.pt
+Loading patch: experiments/task1_bstld_eot/patches/adaptive_defense/bstld_eot_adaptive_defense_2.pt
+Classes: {0: 'red', 1: 'yellow', 2: 'green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: runs/detect/bstld_eot_defense_50/weights/best.pt
+Patch: experiments/task1_bstld_eot/patches/adaptive_defense/bstld_eot_adaptive_defense_2.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 460
+Correct color: 330
+Misclassified: 130
+Targeted Green: 130
+Vanished: 175
+
+Classification accuracy: 0.717391
+Classification accuracy (%): 71.74%
+
+Targeted misclassification rate: 0.282609
+Targeted misclassification rate (%): 28.26%
+
+Vanishing rate: 0.275591
+Vanishing rate (%): 27.56%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 2: Accuracy=71.74% | TMR=28.26% | Vanishing=27.56%
+
+======================================================================
+EVALUATING EPOCH 3
+======================================================================
+Using device: 0
+Loading model: runs/detect/bstld_eot_defense_50/weights/best.pt
+Loading patch: experiments/task1_bstld_eot/patches/adaptive_defense/bstld_eot_adaptive_defense_3.pt
+Classes: {0: 'red', 1: 'yellow', 2: 'green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: runs/detect/bstld_eot_defense_50/weights/best.pt
+Patch: experiments/task1_bstld_eot/patches/adaptive_defense/bstld_eot_adaptive_defense_3.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 458
+Correct color: 350
+Misclassified: 108
+Targeted Green: 108
+Vanished: 177
+
+Classification accuracy: 0.764192
+Classification accuracy (%): 76.42%
+
+Targeted misclassification rate: 0.235808
+Targeted misclassification rate (%): 23.58%
+
+Vanishing rate: 0.278740
+Vanishing rate (%): 27.87%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 3: Accuracy=76.42% | TMR=23.58% | Vanishing=27.87%
+
+======================================================================
+EVALUATING EPOCH 4
+======================================================================
+Using device: 0
+Loading model: runs/detect/bstld_eot_defense_50/weights/best.pt
+Loading patch: experiments/task1_bstld_eot/patches/adaptive_defense/bstld_eot_adaptive_defense_4.pt
+Classes: {0: 'red', 1: 'yellow', 2: 'green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: runs/detect/bstld_eot_defense_50/weights/best.pt
+Patch: experiments/task1_bstld_eot/patches/adaptive_defense/bstld_eot_adaptive_defense_4.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 466
+Correct color: 339
+Misclassified: 127
+Targeted Green: 127
+Vanished: 169
+
+Classification accuracy: 0.727468
+Classification accuracy (%): 72.75%
+
+Targeted misclassification rate: 0.272532
+Targeted misclassification rate (%): 27.25%
+
+Vanishing rate: 0.266142
+Vanishing rate (%): 26.61%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 4: Accuracy=72.75% | TMR=27.25% | Vanishing=26.61%
+
+======================================================================
+EVALUATING EPOCH 5
+======================================================================
+Using device: 0
+Loading model: runs/detect/bstld_eot_defense_50/weights/best.pt
+Loading patch: experiments/task1_bstld_eot/patches/adaptive_defense/bstld_eot_adaptive_defense_5.pt
+Classes: {0: 'red', 1: 'yellow', 2: 'green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: runs/detect/bstld_eot_defense_50/weights/best.pt
+Patch: experiments/task1_bstld_eot/patches/adaptive_defense/bstld_eot_adaptive_defense_5.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 474
+Correct color: 346
+Misclassified: 128
+Targeted Green: 128
+Vanished: 161
+
+Classification accuracy: 0.729958
+Classification accuracy (%): 73.00%
+
+Targeted misclassification rate: 0.270042
+Targeted misclassification rate (%): 27.00%
+
+Vanishing rate: 0.253543
+Vanishing rate (%): 25.35%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 5: Accuracy=73.00% | TMR=27.00% | Vanishing=25.35%
+
+======================================================================
+BSTLD EOT CHECKPOINT SWEEP
+======================================================================
+Epoch       Accuracy         TMR     Vanishing
+1             75.38%      24.62%        27.09%
+2             71.74%      28.26%        27.56%
+3             76.42%      23.58%        27.87%
+4             72.75%      27.25%        26.61%
+5             73.00%      27.00%        25.35%
+
+Highest observed TMR checkpoint: epoch 2
+TMR: 28.26%
+Classification accuracy: 71.74%
+Vanishing: 27.56%
+
+Saved: /home/chi-chi/REU/attacks-on-traffic-light-detection/experiments/task1_bstld_eot/evaluation/adaptive_defense/bstld_eot_adaptive_defense_checkpoint_sweep.csv

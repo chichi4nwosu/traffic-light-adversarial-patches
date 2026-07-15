@@ -1,0 +1,23 @@
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: runs/detect/bstld_yolov8l/weights/best.pt
+Patch: experiments/task2_bstld_transferability/patches/yolov8m/task2_yolov8m_source_5.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 479
+Correct color: 87
+Misclassified: 392
+Targeted Green: 390
+Vanished: 156
+
+Classification accuracy: 0.181628
+Classification accuracy (%): 18.16%
+
+Targeted misclassification rate: 0.814196
+Targeted misclassification rate (%): 81.42%
+
+Vanishing rate: 0.245669
+Vanishing rate (%): 24.57%

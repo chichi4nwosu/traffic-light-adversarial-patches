@@ -1,0 +1,3 @@
+model,model_path,precision_percent,recall_percent,map50_percent,map50_95_percent
+YOLOv8m,runs/detect/bstld_yolov8m_final3/weights/best.pt,66.03945713333758,54.776354988762876,61.825746748619196,46.14895030517041
+YOLOv8l,runs/detect/bstld_yolov8l/weights/best.pt,64.04948640140067,48.32247948570533,58.019591383369054,40.71535571178183

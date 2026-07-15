@@ -1,0 +1,38 @@
+BSTLD EOT DEFENSE FINAL RESULT
+
+Dataset: BSTLD
+Attack target: Red -> Green
+
+Attack patch:
+bstld_eot_corrected_final_3.pt
+
+Original model under attack:
+GT red traffic lights: 635
+Matched detections: 531
+Correct color: 122
+Targeted Green: 409
+Classification accuracy among matched detections: 22.98%
+Targeted misclassification rate: 77.02%
+Vanishing rate: 16.38%
+
+Defended model under same attack:
+GT red traffic lights: 635
+Matched detections: 552
+Correct color: 552
+Targeted Green: 0
+Classification accuracy among matched detections: 100.00%
+Targeted misclassification rate: 0.00%
+Vanishing rate: 13.07%
+
+Defense clean validation:
+Precision: 65.792%
+Recall: 58.309%
+mAP50: 63.832%
+mAP50-95: 45.155%
+
+Interpretation:
+Patch-augmented adversarial training reduced targeted Red-to-Green
+misclassification from 77.02% to 0.00% among IoU-matched detections
+under the evaluated fixed EOT patch. Vanishing decreased from 16.38%
+to 13.07%. Classification accuracy values are conditional on
+IoU-matched detections.

@@ -1,0 +1,31 @@
+Using device: 0
+Loading model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Loading patch: experiments/task1_bstld_eot/patches/smoke/bstld_eot_smoke_1.pt
+Classes: {0: 'Red', 1: 'Yellow', 2: 'Green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+Evaluating BSTLD patch:   0%|          | 0/472 [00:00<?, ?it/s]Evaluating BSTLD patch:   0%|          | 1/472 [00:01<10:40,  1.36s/it]Evaluating BSTLD patch:   1%|          | 4/472 [00:01<02:15,  3.45it/s]Evaluating BSTLD patch:   2%|▏         | 9/472 [00:01<00:51,  8.92it/s]Evaluating BSTLD patch:   3%|▎         | 14/472 [00:01<00:31, 14.77it/s]Evaluating BSTLD patch:   4%|▍         | 21/472 [00:01<00:19, 23.35it/s]Evaluating BSTLD patch:   6%|▌         | 27/472 [00:01<00:14, 30.09it/s]Evaluating BSTLD patch:   7%|▋         | 33/472 [00:02<00:12, 35.34it/s]Evaluating BSTLD patch:   8%|▊         | 39/472 [00:02<00:10, 39.81it/s]Evaluating BSTLD patch:  10%|▉         | 47/472 [00:02<00:08, 47.27it/s]Evaluating BSTLD patch:  11%|█▏        | 54/472 [00:02<00:08, 51.60it/s]Evaluating BSTLD patch:  13%|█▎        | 60/472 [00:02<00:07, 53.66it/s]Evaluating BSTLD patch:  14%|█▍        | 67/472 [00:02<00:07, 55.16it/s]Evaluating BSTLD patch:  16%|█▌        | 74/472 [00:02<00:07, 56.61it/s]Evaluating BSTLD patch:  17%|█▋        | 80/472 [00:02<00:07, 55.89it/s]Evaluating BSTLD patch:  18%|█▊        | 87/472 [00:02<00:06, 56.92it/s]Evaluating BSTLD patch:  21%|██        | 98/472 [00:03<00:05, 70.08it/s]Evaluating BSTLD patch:  22%|██▏       | 106/472 [00:03<00:05, 69.23it/s]Evaluating BSTLD patch:  24%|██▍       | 114/472 [00:03<00:05, 67.62it/s]Evaluating BSTLD patch:  26%|██▌       | 121/472 [00:03<00:05, 65.36it/s]Evaluating BSTLD patch:  27%|██▋       | 128/472 [00:03<00:05, 63.91it/s]Evaluating BSTLD patch:  29%|██▊       | 135/472 [00:03<00:05, 62.42it/s]Evaluating BSTLD patch:  30%|███       | 142/472 [00:03<00:05, 58.27it/s]Evaluating BSTLD patch:  31%|███▏      | 148/472 [00:03<00:05, 57.82it/s]Evaluating BSTLD patch:  33%|███▎      | 154/472 [00:03<00:05, 56.03it/s]Evaluating BSTLD patch:  34%|███▍      | 160/472 [00:04<00:05, 53.80it/s]Evaluating BSTLD patch:  35%|███▌      | 167/472 [00:04<00:05, 56.99it/s]Evaluating BSTLD patch:  37%|███▋      | 174/472 [00:04<00:05, 58.09it/s]Evaluating BSTLD patch:  38%|███▊      | 180/472 [00:04<00:05, 56.49it/s]Evaluating BSTLD patch:  39%|███▉      | 186/472 [00:04<00:05, 55.83it/s]Evaluating BSTLD patch:  41%|████      | 192/472 [00:04<00:04, 56.37it/s]Evaluating BSTLD patch:  42%|████▏     | 199/472 [00:04<00:04, 58.75it/s]Evaluating BSTLD patch:  44%|████▎     | 206/472 [00:04<00:04, 59.16it/s]Evaluating BSTLD patch:  45%|████▍     | 212/472 [00:05<00:04, 56.32it/s]Evaluating BSTLD patch:  46%|████▌     | 218/472 [00:05<00:04, 55.04it/s]Evaluating BSTLD patch:  48%|████▊     | 226/472 [00:05<00:04, 59.38it/s]Evaluating BSTLD patch:  49%|████▉     | 233/472 [00:05<00:03, 60.83it/s]Evaluating BSTLD patch:  51%|█████▏    | 242/472 [00:05<00:03, 67.04it/s]Evaluating BSTLD patch:  53%|█████▎    | 250/472 [00:05<00:03, 69.61it/s]Evaluating BSTLD patch:  54%|█████▍    | 257/472 [00:05<00:03, 66.36it/s]Evaluating BSTLD patch:  56%|█████▌    | 264/472 [00:05<00:03, 62.91it/s]Evaluating BSTLD patch:  57%|█████▋    | 271/472 [00:05<00:03, 63.44it/s]Evaluating BSTLD patch:  59%|█████▉    | 278/472 [00:06<00:03, 64.03it/s]Evaluating BSTLD patch:  61%|██████    | 286/472 [00:06<00:02, 66.28it/s]Evaluating BSTLD patch:  62%|██████▏   | 293/472 [00:06<00:02, 64.23it/s]Evaluating BSTLD patch:  64%|██████▎   | 300/472 [00:06<00:02, 59.36it/s]Evaluating BSTLD patch:  65%|██████▌   | 307/472 [00:06<00:02, 56.35it/s]Evaluating BSTLD patch:  67%|██████▋   | 314/472 [00:06<00:02, 57.48it/s]Evaluating BSTLD patch:  68%|██████▊   | 320/472 [00:06<00:02, 56.14it/s]Evaluating BSTLD patch:  69%|██████▉   | 326/472 [00:06<00:02, 55.35it/s]Evaluating BSTLD patch:  71%|███████   | 334/472 [00:06<00:02, 60.33it/s]Evaluating BSTLD patch:  72%|███████▏  | 341/472 [00:07<00:02, 59.46it/s]Evaluating BSTLD patch:  74%|███████▎  | 348/472 [00:07<00:02, 61.38it/s]Evaluating BSTLD patch:  75%|███████▌  | 356/472 [00:07<00:01, 63.78it/s]Evaluating BSTLD patch:  77%|███████▋  | 363/472 [00:07<00:01, 61.19it/s]Evaluating BSTLD patch:  78%|███████▊  | 370/472 [00:07<00:01, 57.35it/s]Evaluating BSTLD patch:  80%|███████▉  | 377/472 [00:07<00:01, 59.28it/s]Evaluating BSTLD patch:  81%|████████  | 383/472 [00:07<00:01, 56.16it/s]Evaluating BSTLD patch:  82%|████████▏ | 389/472 [00:07<00:01, 55.12it/s]Evaluating BSTLD patch:  84%|████████▎ | 395/472 [00:08<00:01, 54.56it/s]Evaluating BSTLD patch:  85%|████████▍ | 401/472 [00:08<00:01, 54.16it/s]Evaluating BSTLD patch:  86%|████████▌ | 407/472 [00:08<00:01, 55.16it/s]Evaluating BSTLD patch:  88%|████████▊ | 414/472 [00:08<00:01, 57.93it/s]Evaluating BSTLD patch:  89%|████████▉ | 421/472 [00:08<00:00, 58.97it/s]Evaluating BSTLD patch:  90%|█████████ | 427/472 [00:08<00:00, 56.31it/s]Evaluating BSTLD patch:  92%|█████████▏| 433/472 [00:08<00:00, 52.33it/s]Evaluating BSTLD patch:  93%|█████████▎| 439/472 [00:08<00:00, 54.23it/s]Evaluating BSTLD patch:  94%|█████████▍| 445/472 [00:08<00:00, 54.43it/s]Evaluating BSTLD patch:  96%|█████████▌| 451/472 [00:09<00:00, 53.99it/s]Evaluating BSTLD patch:  97%|█████████▋| 457/472 [00:09<00:00, 52.43it/s]Evaluating BSTLD patch:  98%|█████████▊| 463/472 [00:09<00:00, 53.87it/s]Evaluating BSTLD patch: 100%|█████████▉| 471/472 [00:09<00:00, 59.12it/s]Evaluating BSTLD patch: 100%|██████████| 472/472 [00:09<00:00, 50.08it/s]
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+Patch: experiments/task1_bstld_eot/patches/smoke/bstld_eot_smoke_1.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 544
+Correct color: 101
+Misclassified: 443
+Targeted Green: 443
+Vanished: 91
+
+Classification accuracy: 0.185662
+Classification accuracy (%): 18.57%
+
+Targeted misclassification rate: 0.814338
+Targeted misclassification rate (%): 81.43%
+
+Vanishing rate: 0.143307
+Vanishing rate (%): 14.33%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt

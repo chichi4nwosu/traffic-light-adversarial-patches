@@ -1,0 +1,85 @@
+TASK 1 FINAL SUMMARY
+====================
+
+Dataset:
+BSTLD
+
+Attack:
+Targeted EOT adversarial patch
+
+Source class:
+Red traffic light
+
+Target class:
+Green traffic light
+
+ATTACK AGAINST ORIGINAL MODEL
+-----------------------------
+Selected checkpoint: epoch 3
+TMR: 77.02%
+Classification accuracy among IoU-matched detections: 22.98%
+Vanishing rate: 16.38%
+Matched detections: 531
+Targeted Green detections: 409
+Evaluated GT red traffic lights: 635
+
+DEFENSE
+-------
+Defense method:
+Patch-augmented adversarial training
+
+DEFENDED MODEL UNDER ORIGINAL FIXED PATCH
+-----------------------------------------
+TMR: 0.00%
+Classification accuracy among IoU-matched detections: 100.00%
+Vanishing rate: 13.07%
+Matched detections: 552
+Targeted Green detections: 0
+Evaluated GT red traffic lights: 635
+
+ADAPTIVE WHITE-BOX ATTACK AGAINST DEFENDED MODEL
+------------------------------------------------
+Selected checkpoint: epoch 2
+TMR: 28.26%
+Classification accuracy among IoU-matched detections: 71.74%
+Vanishing rate: 27.56%
+Matched detections: 460
+Targeted Green detections: 130
+Evaluated GT red traffic lights: 635
+
+CLEAN MODEL PERFORMANCE
+-----------------------
+Original model:
+mAP50: 64.50%
+mAP50-95: 48.26%
+
+Defended model:
+mAP50: 64.14%
+mAP50-95: 47.31%
+
+Clean performance change:
+mAP50: -0.36 percentage points
+mAP50-95: -0.95 percentage points
+
+MAIN CONCLUSION
+---------------
+Patch-augmented adversarial training substantially improved robustness
+to the targeted Red-to-Green EOT patch attack.
+
+The original fixed patch TMR decreased from 77.02% to 0.00% against
+the defended detector.
+
+An adaptive white-box attacker partially recovered attack effectiveness,
+achieving 28.26% TMR against the defended detector. This remained
+substantially below the 77.02% TMR observed against the original model.
+
+The defense therefore improves robustness but does not provide complete
+robustness against an adaptive adversary.
+
+METRIC NOTE
+-----------
+Classification accuracy and TMR are calculated over IoU-matched
+detections.
+
+Vanishing rate is calculated over all evaluated ground-truth red
+traffic lights.

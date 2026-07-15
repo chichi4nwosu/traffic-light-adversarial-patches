@@ -1,0 +1,3 @@
+model,classification_accuracy_percent,tmr_percent,vanishing_percent,matched_detections,targeted_green,total_gt_red
+Original attacked model,22.98,77.02,16.38,531,409,635
+Defended attacked model,100.00,0.00,13.07,552,0,635

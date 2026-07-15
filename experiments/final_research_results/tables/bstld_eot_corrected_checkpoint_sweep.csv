@@ -1,0 +1,6 @@
+epoch,classification_accuracy_percent,tmr_percent,vanishing_percent
+1,25.9,74.1,16.69
+2,23.5,76.5,16.22
+3,22.98,77.02,16.38
+4,23.72,76.28,17.01
+5,24.14,75.86,17.17

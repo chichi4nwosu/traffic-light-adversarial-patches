@@ -1,0 +1,23 @@
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: runs/detect/bstld_eot_defense_50/weights/best.pt
+Patch: experiments/task1_bstld_eot/archive/corrected_targeted_final_20260714/bstld_eot_corrected_final_3.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 552
+Correct color: 552
+Misclassified: 0
+Targeted Green: 0
+Vanished: 83
+
+Classification accuracy: 1.000000
+Classification accuracy (%): 100.00%
+
+Targeted misclassification rate: 0.000000
+Targeted misclassification rate (%): 0.00%
+
+Vanishing rate: 0.130709
+Vanishing rate (%): 13.07%

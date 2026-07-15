@@ -1,0 +1,81 @@
+
+======================================================================
+EVALUATING: Original model
+MODEL: experiments/task1_bstld_eot/models/bstld_sumaiya_best.pt
+======================================================================
+Ultralytics 8.3.0 🚀 Python-3.10.12 torch-2.12.0+cu130 CUDA:0 (NVIDIA RTX 6000 Ada Generation, 48509MiB)
+Model summary (fused): 218 layers, 25,842,076 parameters, 0 gradients, 78.7 GFLOPs
+[34m[1mval: [0mScanning /home/chi-chi/REU/Project_TL/datasets/BSTLD/labels/val.cache... 472 images, 4 backgrounds, 1 corrupt: 100%|██████████| 472/472 [00:00<?, ?it/s][34m[1mval: [0mScanning /home/chi-chi/REU/Project_TL/datasets/BSTLD/labels/val.cache... 472 images, 4 backgrounds, 1 corrupt: 100%|██████████| 472/472 [00:00<?, ?it/s]
+[34m[1mval: [0mWARNING ⚠️ /home/chi-chi/REU/Project_TL/datasets/BSTLD/images/val/677570.png: ignoring corrupt image/label: negative label values [  -0.038556   -0.037873]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/59 [00:00<?, ?it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   2%|▏         | 1/59 [00:00<00:13,  4.44it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   5%|▌         | 3/59 [00:00<00:05,  9.97it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   8%|▊         | 5/59 [00:00<00:04, 12.88it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  12%|█▏        | 7/59 [00:00<00:03, 14.60it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  15%|█▌        | 9/59 [00:00<00:03, 15.53it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  19%|█▊        | 11/59 [00:00<00:02, 16.22it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  22%|██▏       | 13/59 [00:00<00:02, 16.75it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  25%|██▌       | 15/59 [00:01<00:02, 17.00it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  29%|██▉       | 17/59 [00:01<00:02, 16.67it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  32%|███▏      | 19/59 [00:01<00:02, 16.77it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  36%|███▌      | 21/59 [00:01<00:02, 16.79it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  39%|███▉      | 23/59 [00:01<00:02, 17.04it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  42%|████▏     | 25/59 [00:01<00:01, 17.26it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  46%|████▌     | 27/59 [00:01<00:01, 17.35it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  49%|████▉     | 29/59 [00:01<00:01, 17.47it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  53%|█████▎    | 31/59 [00:01<00:01, 17.58it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  56%|█████▌    | 33/59 [00:02<00:01, 17.52it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  59%|█████▉    | 35/59 [00:02<00:01, 17.55it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  63%|██████▎   | 37/59 [00:02<00:01, 17.67it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  66%|██████▌   | 39/59 [00:02<00:01, 17.68it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  69%|██████▉   | 41/59 [00:02<00:01, 17.68it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  73%|███████▎  | 43/59 [00:02<00:00, 17.75it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  76%|███████▋  | 45/59 [00:02<00:00, 17.35it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  80%|███████▉  | 47/59 [00:02<00:00, 17.43it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  83%|████████▎ | 49/59 [00:02<00:00, 17.52it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  86%|████████▋ | 51/59 [00:03<00:00, 17.54it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  90%|████████▉ | 53/59 [00:03<00:00, 17.55it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  93%|█████████▎| 55/59 [00:03<00:00, 17.58it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  97%|█████████▋| 57/59 [00:03<00:00, 17.63it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 59/59 [00:03<00:00, 17.37it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 59/59 [00:03<00:00, 16.66it/s]
+                   all        471       1549      0.647      0.605      0.645      0.483
+                   Red        299        636      0.887      0.686      0.794      0.581
+                Yellow         46         75      0.838       0.83      0.878      0.646
+                 Green        295        722      0.861      0.904      0.908      0.704
+                 False         83        116          0          0          0          0
+Speed: 0.2ms preprocess, 5.7ms inference, 0.0ms loss, 0.6ms postprocess per image
+
+Original model CLEAN SUMMARY
+Precision: 64.66%
+Recall: 60.49%
+mAP50: 64.50%
+mAP50-95: 48.26%
+
+======================================================================
+EVALUATING: Defended model
+MODEL: runs/detect/bstld_eot_defense_50/weights/best.pt
+======================================================================
+Ultralytics 8.3.0 🚀 Python-3.10.12 torch-2.12.0+cu130 CUDA:0 (NVIDIA RTX 6000 Ada Generation, 48509MiB)
+Model summary (fused): 236 layers, 23,205,148 parameters, 0 gradients, 67.4 GFLOPs
+[34m[1mval: [0mScanning /home/chi-chi/REU/Project_TL/datasets/BSTLD/labels/val.cache... 472 images, 4 backgrounds, 1 corrupt: 100%|██████████| 472/472 [00:00<?, ?it/s][34m[1mval: [0mScanning /home/chi-chi/REU/Project_TL/datasets/BSTLD/labels/val.cache... 472 images, 4 backgrounds, 1 corrupt: 100%|██████████| 472/472 [00:00<?, ?it/s]
+[34m[1mval: [0mWARNING ⚠️ /home/chi-chi/REU/Project_TL/datasets/BSTLD/images/val/677570.png: ignoring corrupt image/label: negative label values [  -0.038556   -0.037873]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/59 [00:00<?, ?it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   2%|▏         | 1/59 [00:00<00:28,  2.02it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   5%|▌         | 3/59 [00:00<00:09,  5.71it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   8%|▊         | 5/59 [00:00<00:06,  8.81it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  12%|█▏        | 7/59 [00:00<00:04, 11.25it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  15%|█▌        | 9/59 [00:00<00:03, 13.09it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  19%|█▊        | 11/59 [00:01<00:03, 14.50it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  22%|██▏       | 13/59 [00:01<00:02, 15.52it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  25%|██▌       | 15/59 [00:01<00:02, 16.34it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  29%|██▉       | 17/59 [00:01<00:02, 16.79it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  32%|███▏      | 19/59 [00:01<00:02, 17.12it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  36%|███▌      | 21/59 [00:01<00:02, 17.21it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  39%|███▉      | 23/59 [00:01<00:02, 17.46it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  42%|████▏     | 25/59 [00:01<00:01, 17.63it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  46%|████▌     | 27/59 [00:01<00:01, 17.66it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  49%|████▉     | 29/59 [00:02<00:01, 17.81it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  53%|█████▎    | 31/59 [00:02<00:01, 17.80it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  56%|█████▌    | 33/59 [00:02<00:01, 17.76it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  59%|█████▉    | 35/59 [00:02<00:01, 17.86it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  63%|██████▎   | 37/59 [00:02<00:01, 17.93it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  66%|██████▌   | 39/59 [00:02<00:01, 18.10it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  69%|██████▉   | 41/59 [00:02<00:00, 18.05it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  73%|███████▎  | 43/59 [00:02<00:00, 18.10it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  76%|███████▋  | 45/59 [00:02<00:00, 18.06it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  80%|███████▉  | 47/59 [00:03<00:00, 18.14it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  83%|████████▎ | 49/59 [00:03<00:00, 18.09it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  86%|████████▋ | 51/59 [00:03<00:00, 18.09it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  90%|████████▉ | 53/59 [00:03<00:00, 18.07it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  93%|█████████▎| 55/59 [00:03<00:00, 17.98it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  97%|█████████▋| 57/59 [00:03<00:00, 17.98it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 59/59 [00:03<00:00, 18.06it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 59/59 [00:03<00:00, 15.82it/s]
+                   all        471       1549      0.656      0.584      0.641      0.473
+                   red        299        636      0.905      0.671      0.798       0.57
+                yellow         46         75      0.854      0.773      0.863      0.633
+                 green        295        722      0.866      0.891      0.905      0.689
+                 False         83        116          0          0          0          0
+Speed: 0.3ms preprocess, 5.5ms inference, 0.0ms loss, 0.4ms postprocess per image
+
+Defended model CLEAN SUMMARY
+Precision: 65.62%
+Recall: 58.38%
+mAP50: 64.14%
+mAP50-95: 47.31%
+
+======================================================================
+CLEAN MODEL COMPARISON
+======================================================================
+Original model: P=64.66% | R=60.49% | mAP50=64.50% | mAP50-95=48.26%
+Defended model: P=65.62% | R=58.38% | mAP50=64.14% | mAP50-95=47.31%
+
+Saved: experiments/task1_bstld_eot/defense/results/bstld_clean_model_comparison.csv
+Exception in thread Thread-3 (_pin_memory_loop):
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/chi-chi/REU/attacks-on-traffic-light-detection/traffic-env/lib/python3.10/site-packages/torch/utils/data/_utils/pin_memory.py", line 52, in _pin_memory_loop
+    do_one_step()
+  File "/home/chi-chi/REU/attacks-on-traffic-light-detection/traffic-env/lib/python3.10/site-packages/torch/utils/data/_utils/pin_memory.py", line 28, in do_one_step
+    r = in_queue.get(timeout=MP_STATUS_CHECK_INTERVAL)
+  File "/usr/lib/python3.10/multiprocessing/queues.py", line 122, in get
+    return _ForkingPickler.loads(res)
+  File "/home/chi-chi/REU/attacks-on-traffic-light-detection/traffic-env/lib/python3.10/site-packages/torch/multiprocessing/reductions.py", line 540, in rebuild_storage_fd
+    fd = df.detach()
+  File "/usr/lib/python3.10/multiprocessing/resource_sharer.py", line 57, in detach
+    with _resource_sharer.get_connection(self._id) as conn:
+  File "/usr/lib/python3.10/multiprocessing/resource_sharer.py", line 86, in get_connection
+    c = Client(address, authkey=process.current_process().authkey)
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 508, in Client
+    answer_challenge(c, authkey)
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 752, in answer_challenge
+    message = connection.recv_bytes(256)         # reject large message
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.10/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+ConnectionResetError: [Errno 104] Connection reset by peer

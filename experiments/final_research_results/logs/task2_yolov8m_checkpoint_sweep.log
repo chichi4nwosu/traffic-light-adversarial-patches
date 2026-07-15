@@ -1,0 +1,197 @@
+
+======================================================================
+EVALUATING EPOCH 1
+======================================================================
+Using device: 0
+Loading model: runs/detect/bstld_yolov8m_final3/weights/best.pt
+Loading patch: experiments/task2_bstld_transferability/patches/yolov8m/task2_yolov8m_source_1.pt
+Classes: {0: 'red', 1: 'yellow', 2: 'green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: runs/detect/bstld_yolov8m_final3/weights/best.pt
+Patch: experiments/task2_bstld_transferability/patches/yolov8m/task2_yolov8m_source_1.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 512
+Correct color: 165
+Misclassified: 347
+Targeted Green: 346
+Vanished: 123
+
+Classification accuracy: 0.322266
+Classification accuracy (%): 32.23%
+
+Targeted misclassification rate: 0.675781
+Targeted misclassification rate (%): 67.58%
+
+Vanishing rate: 0.193701
+Vanishing rate (%): 19.37%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 1: Accuracy=32.23% | TMR=67.58% | Vanishing=19.37%
+
+======================================================================
+EVALUATING EPOCH 2
+======================================================================
+Using device: 0
+Loading model: runs/detect/bstld_yolov8m_final3/weights/best.pt
+Loading patch: experiments/task2_bstld_transferability/patches/yolov8m/task2_yolov8m_source_2.pt
+Classes: {0: 'red', 1: 'yellow', 2: 'green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: runs/detect/bstld_yolov8m_final3/weights/best.pt
+Patch: experiments/task2_bstld_transferability/patches/yolov8m/task2_yolov8m_source_2.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 516
+Correct color: 161
+Misclassified: 355
+Targeted Green: 355
+Vanished: 119
+
+Classification accuracy: 0.312016
+Classification accuracy (%): 31.20%
+
+Targeted misclassification rate: 0.687984
+Targeted misclassification rate (%): 68.80%
+
+Vanishing rate: 0.187402
+Vanishing rate (%): 18.74%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 2: Accuracy=31.20% | TMR=68.80% | Vanishing=18.74%
+
+======================================================================
+EVALUATING EPOCH 3
+======================================================================
+Using device: 0
+Loading model: runs/detect/bstld_yolov8m_final3/weights/best.pt
+Loading patch: experiments/task2_bstld_transferability/patches/yolov8m/task2_yolov8m_source_3.pt
+Classes: {0: 'red', 1: 'yellow', 2: 'green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: runs/detect/bstld_yolov8m_final3/weights/best.pt
+Patch: experiments/task2_bstld_transferability/patches/yolov8m/task2_yolov8m_source_3.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 506
+Correct color: 156
+Misclassified: 350
+Targeted Green: 349
+Vanished: 129
+
+Classification accuracy: 0.308300
+Classification accuracy (%): 30.83%
+
+Targeted misclassification rate: 0.689723
+Targeted misclassification rate (%): 68.97%
+
+Vanishing rate: 0.203150
+Vanishing rate (%): 20.31%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 3: Accuracy=30.83% | TMR=68.97% | Vanishing=20.31%
+
+======================================================================
+EVALUATING EPOCH 4
+======================================================================
+Using device: 0
+Loading model: runs/detect/bstld_yolov8m_final3/weights/best.pt
+Loading patch: experiments/task2_bstld_transferability/patches/yolov8m/task2_yolov8m_source_4.pt
+Classes: {0: 'red', 1: 'yellow', 2: 'green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: runs/detect/bstld_yolov8m_final3/weights/best.pt
+Patch: experiments/task2_bstld_transferability/patches/yolov8m/task2_yolov8m_source_4.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 521
+Correct color: 159
+Misclassified: 362
+Targeted Green: 361
+Vanished: 114
+
+Classification accuracy: 0.305182
+Classification accuracy (%): 30.52%
+
+Targeted misclassification rate: 0.692898
+Targeted misclassification rate (%): 69.29%
+
+Vanishing rate: 0.179528
+Vanishing rate (%): 17.95%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 4: Accuracy=30.52% | TMR=69.29% | Vanishing=17.95%
+
+======================================================================
+EVALUATING EPOCH 5
+======================================================================
+Using device: 0
+Loading model: runs/detect/bstld_yolov8m_final3/weights/best.pt
+Loading patch: experiments/task2_bstld_transferability/patches/yolov8m/task2_yolov8m_source_5.pt
+Classes: {0: 'red', 1: 'yellow', 2: 'green', 3: 'False'}
+Patch shape: torch.Size([3, 125, 125])
+
+=== BSTLD EOT Patch Evaluation (IoU-matched) ===
+Model: runs/detect/bstld_yolov8m_final3/weights/best.pt
+Patch: experiments/task2_bstld_transferability/patches/yolov8m/task2_yolov8m_source_5.pt
+
+Total GT red TLs evaluated: 635
+Total patches placed: 635
+Skipped patch boxes/images: 2
+
+Detected (matched): 513
+Correct color: 150
+Misclassified: 363
+Targeted Green: 363
+Vanished: 122
+
+Classification accuracy: 0.292398
+Classification accuracy (%): 29.24%
+
+Targeted misclassification rate: 0.707602
+Targeted misclassification rate (%): 70.76%
+
+Vanishing rate: 0.192126
+Vanishing rate (%): 19.21%
+
+Saved: experiments/task1_bstld_eot/evaluation/bstld_patch_metrics.txt
+
+SUMMARY EPOCH 5: Accuracy=29.24% | TMR=70.76% | Vanishing=19.21%
+
+======================================================================
+BSTLD EOT CHECKPOINT SWEEP
+======================================================================
+Epoch       Accuracy         TMR     Vanishing
+1             32.23%      67.58%        19.37%
+2             31.20%      68.80%        18.74%
+3             30.83%      68.97%        20.31%
+4             30.52%      69.29%        17.95%
+5             29.24%      70.76%        19.21%
+
+Highest observed TMR checkpoint: epoch 5
+TMR: 70.76%
+Classification accuracy: 29.24%
+Vanishing: 19.21%
+
+Saved: /home/chi-chi/REU/attacks-on-traffic-light-detection/experiments/task2_bstld_transferability/evaluation/task2_yolov8m_checkpoint_sweep.csv

@@ -1,0 +1,17 @@
+
+=== Clean TL Classification Accuracy (IoU-matched) ===
+Total GT red TLs: 637
+Detected (matched): 415
+Correct color: 412
+Misclassified: 3
+Targeted Green: 0
+Vanished: 222
+
+-- Detection axis --
+Detection recall: 0.6514913657770801
+Vanishing rate: 0.34850863422291994
+
+-- Classification axis (conditioned on correct detection) --
+Conditional classification accuracy: 0.9927710843373494
+Conditional misclassification rate: 0.007228915662650603
+Targeted misclassification rate (Red -> Green): 0.0
