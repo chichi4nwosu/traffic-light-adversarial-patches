@@ -378,7 +378,7 @@ This work was completed as part of the NSF Research Experiences for Undergraduat
 
 Advisor
 
-- Dr. Sumaiya
+- Sumaiya Tasneem
 
 Built using
 
